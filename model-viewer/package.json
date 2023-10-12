@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@google/model-viewer": "^3.3.0",
-    "three": "^0.157.0"
-  }
-}
