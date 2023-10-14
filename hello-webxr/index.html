@@ -9,7 +9,6 @@
 
   <!-- three.js -->
   <script src="https://unpkg.com/three@0.126.0/build/three.js"></script>
-
 </head>
 
 <body>
@@ -75,9 +74,9 @@
       camera.matrixAutoUpdate = false;
 
       // Initialize a WebXR session using "immersive-ar".
-      const xr = getXR("if-needed");
-      console.log('xr', xr);
-      const session = await xr.requestSession("immersive-ar");
+      const session = await navigator.xr.requestSession("immersive-ar");
+      console.log('session', session);
+
       session.updateRenderState({
         baseLayer: new XRWebGLLayer(session, gl)
       });
