@@ -10,8 +10,6 @@
   <!-- three.js -->
   <script src="https://unpkg.com/three@0.126.0/build/three.js"></script>
 
-  <!-- webxr-polyfill -->
-  <script src='https://cdn.jsdelivr.net/npm/webxr-polyfill@latest/build/webxr-polyfill.js'></script>
 </head>
 
 <body>
@@ -35,34 +33,6 @@
       console.log("navigator.geolocation is not available");
     }
     */
-    let webxrPolyfill = null;
-
-    function getXR(usePolyfill) {
-      let tempXR;
-
-      switch (usePolyfill) {
-        case "if-needed":
-          tempXR = navigator.xr;
-          if (!tempXR) {
-            console.log('loading polyfill');
-            webxrPolyfill = new WebXRPolyfill();
-            tempXR = webxrPolyfill;
-          } else {
-            console.log('not loading polyfill');
-          }
-          break;
-        case "yes":
-          webxrPolyfill = new WebXRPolyfill();
-          tempXR = webxrPolyfill;
-          break;
-        case "no":
-        default:
-          tempXR = navigator.xr;
-          break;
-      }
-
-      return tempXR;
-    }
 
     async function activateXR() {
 
