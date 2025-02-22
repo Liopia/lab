@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>stop motion 3d test space</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 1rem;
+				background: #333;
+				font-family: sans-serif;
+			}
+			.controls {
+				position: absolute;
+				z-index: 10;
+			}
+			.control {
+				display: block;
+				margin: 1rem;
+				padding: 1rem;
+				width: 160px;
+				border: 2px solid black;
+				background: white;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+
+	<div class="controls">
+		<div class="control"
+		data-folder="img/stihl/"
+		data-filename="stihl_{index}.jpg"
+		data-amount="40"
+		data-speed="500"
+		>
+			Image test 1: Stohl
+			<br><small>40 frames at 500ms</small>
+		</div>
+
+		<div class="control"
+		data-folder="img/stihl/"
+		data-filename="stihl_{index}.jpg"
+		data-amount="40"
+		data-speed="100"
+		>
+			Image test 2: Stohl
+			<br><small>40 frames at 100ms</small>
+		</div>
+
+		<div class="control"
+		data-folder="img/bike/"
+		data-filename="bike_{index}.jpg"
+		data-amount="80"
+		data-speed="150"
+		>
+			Image test 3: Bike
+			<br><small>80 frames at 150ms</small>
+		</div>
+
+		<div class="control"
+		data-folder="img/house/"
+		data-filename="house_{index}.jpg"
+		data-amount="200"
+		data-speed="500"
+		>
+			Image test 4: House
+			<br><small>200 frames at 500ms</small>
+		</div>
+	</div>
+
+	<div id="target" class="cloudimage-360"
+	data-folder="img/bike_min/"
+	data-filename="bike_{index}.jpg"
+	data-amount="80"
+
+	data-bottom-circle="false"
+	data-hide-360-logo="true"
+
+	data-autoplay="true"
+	data-speed="250"
+	></div>
+
+	<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js?v1.9.0"></script>
+
+	<script>window.CI360 = { notInitOnLoad: true }</script>
+	<script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2/js-cloudimage-360-view.min.js"></script>
+
+	<script>
+		// 360 view init
+		//window.CI360.init(); 
+
+		// lazy loads elements with default selector as '.lozad'
+		//const imageObserver = lozad(); 
+		//imageObserver.observe();
+
+		let controls = document.getElementsByClassName("control");
+		for (var i=0; i < controls.length; i++) {
+			controls[i].onclick = function(){
+
+				//imageObserver.disconnect();
+				window.CI360.destroy();
+
+				var target = document.getElementById("target");
+				target.setAttribute("data-folder", this.dataset.folder); 
+				target.setAttribute("data-filename", this.dataset.filename); 
+				target.setAttribute("data-amount", this.dataset.amount); 
+				target.setAttribute("data-speed", this.dataset.speed); 
+
+				window.CI360.init(); 
+				//imageObserver.observe();
+			}
+		};
+
+	</script>
+
+	</body>
+</html>

@@ -1,0 +1,95 @@
+* { box-sizing: border-box }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  /* System Fonts with system-ui */
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: black;
+}
+
+#page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* hide elements early to allow image lazy loading */
+/* removed once a page has been wrapped by a div (no longer direct child */
+#page-container > section[data-type="page"] {
+  display: none;
+}
+
+[data-type="page-wrap"] {
+  min-height: 30vh;
+}
+
+[data-type="page-wrap"],
+[data-type="page"] {
+  width: 80vw;
+  max-width: 60rem;
+}
+
+[data-type="page"] {
+  top: 10vh;
+  position: relative;
+  background: #fff url('/img/groovepaper.png');
+  border-radius: 5px;
+  box-shadow: 0 3px 16px -8px #000;
+  border: 1px solid #999;
+  transition: filter 0.25s linear, transform 0.5s ease;
+  margin-bottom: 10%;
+}
+
+
+.stuck-card {
+  position: absolute;
+  right: -3rem;
+  top: -2rem;
+  width: 12rem;
+  height: 12rem;
+  background: white;
+  border: 2px solid #333;
+  z-index: 10;
+}
+
+
+/**
+ * Unstacked Layout toggle
+ * Straighten Layout toggle
+ */
+
+button {
+  position: fixed;
+  z-index: 10000;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+button:nth-child(2) {
+  bottom: 3rem;
+}
+
+button:nth-child(3) {
+  bottom: 5rem;
+}
+
+
+body.unstacked [data-type="page"] {
+  top: 0 !important;
+  filter: none !important;
+  position: relative !important;
+}
+body.unstacked [data-type="page-wrap"] {
+  min-height: 0 !important;
+}
+body.unstacked [data-type="page"] {
+  display: block !important;
+}
+
+body.straighten [data-type="page"] {
+  transform: none !important;
+}

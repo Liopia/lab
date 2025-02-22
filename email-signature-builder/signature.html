@@ -1,0 +1,184 @@
+<html>
+	<head>
+		<title>Email Signature Builder</title>
+
+		<style>
+			body {
+				margin: 3%
+			}
+
+			aside,
+			form {
+				max-width: 60ch;
+				color: #3A5049
+			}
+
+			main {
+				padding: 10%; 
+				margin: 2rem 0; 
+				border-top: 1px solid #3A5049; 
+				border-bottom: 1px solid #3A5049
+			}
+
+			label span {
+				display: inline-block;
+				margin: 0.75rem 0 0.25rem;
+			}
+
+			label:not(.checkbox) span {
+				display: block;
+			}
+
+			label small {
+				display: block;
+			}
+
+			input[type="text"] {
+				display: block;
+				width: 100%;
+				padding: 0.5rem;
+				margin-bottom: 0.25rem;
+			}
+		</style>
+
+		<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+		
+	</head>
+
+	<body x-data="{ 
+		name: 'Firstname Lastname',
+		pronouns: 'She/He',
+		title: 'Assistant to the Regional Manager',
+		email: '__@murmurcreative.com',
+		show_phone: true,
+		phone: '+1 503.208.2990',
+		show_address: false,
+		address: '1300 SE Stark St Room #208 PDX, OR 97214',
+	}">
+		<aside>
+			<h1>Murmur Signature Builder</h1>
+
+			<p>Once you have filled in your details below hilight the resulting signature, then copy and paste it into your email client.</p>
+
+			<p>If you use Apple Mail the signature will look bad when you paste it into the signature area.
+			Please ensure that the "Always match my default message font" is unchecked before saving and then restart the application.</p>
+
+			<p><strong>Hilight tip:</strong> Click and drag from the whitespace at the top left of the signature to the whitespace at the bottom right of the signature.</p>
+			<p><strong>Safari users:</strong> Please use another browser for copying the signature. Chrome is known to work well.</p>
+		</aside>
+
+		<main>
+
+			<table cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, 'Lucida Grande', sans-serif; font-weight: lighter; color: #3A5049; text-transform: uppercase; letter-spacing: 1px;">
+				<tr>
+					<td>
+						<table cellspacing="0" cellpadding="0" border="0" style="margin: 0; font-size: 10px; line-height: 15px">
+							<tr>
+								<td style="padding-bottom: 14px; padding-top: 2px">
+									<img src="https://murmurcreative.com/public/murmur-creative-email-2023-logo.png" 
+										alt="Murmur Creative Logo" 
+										width="218"
+										style="width: 100%; max-width: 218px; display: block; border: 0px;"
+										border="0">
+								</td>
+							</tr>
+							<tr>
+								<td style="padding: 0">
+									<strong>
+										<span x-text="name"></span>
+										<span x-show="pronouns"> | </span>
+										<span style="text-transform: none" x-text="pronouns"></span>
+									</strong>
+								</td>
+							</tr>
+							<tr>
+								<td x-text="title">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="https://murmurcreative.com"
+									style="color: #3A5049; text-decoration: none"
+									x-bind:href="'mailto:' + email"
+									x-text="email"></a>
+									<span x-show="show_phone && phone">
+										| <span x-text="phone"></span>
+									</span>
+								</td>
+							</tr>
+							<tr x-show="show_address">
+								<td>
+									<span x-text="address"></span>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="https://murmurcreative.com" target="_blank" title="Murmur Creative" style="color: #3A5049; text-decoration: none">
+										<strong>murmurcreative.com</strong>
+									</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td width="86" style="padding-left: 22px; vertical-align: top">
+						<img src="https://murmurcreative.com/public/murmur-creative-email-2023-bcorp.png" 
+							alt="B Corp Logo" 
+							width="86"
+							style="width: 100%; max-width: 86px; display: block; border: 0px;"
+							border="0">
+					</td>
+				</tr>
+			</table>
+
+		</main>
+
+		<form>
+			<label>
+				<span>Full Name:</span>
+				<input type="text" x-model="name" />
+			</label>
+
+			<label>
+				<span>Pronouns:</span>
+				<input type="text" x-model="pronouns" />
+			</label>
+
+			<label>
+				<span>Title:</span>
+				<input type="text" x-model="title" />
+			</label>
+
+			<label>
+				<span>Email:</span>
+				<input type="text" x-model="email" />
+			</label>
+
+			<div>
+				<label class="checkbox">
+					<span>Show Phone:</span>
+					<input type="checkbox" x-model="show_phone" />
+					<small>Employees who are not client-facing can turn this off.</small>
+				</label>
+			</div>
+
+			<label x-show="show_phone">
+				<span>Phone:</span>
+				<input type="text" x-model="phone" />
+				<small>Feel free to keep the default office number. 
+				<br />If you do change this use periods between number groups.</small>
+			</label>
+
+			<label class="checkbox">
+				<span>Show Address:</span>
+				<input type="checkbox" x-model="show_address" />
+				<small>If you are unsure leave this unchecked.</small>
+			</label>
+
+			<label x-show="show_address">
+				<span>Address:</span>
+				<input type="text" x-model="address" />
+			</label>
+		</form>
+
+	</body>
+</html>

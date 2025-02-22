@@ -1,0 +1,50 @@
+.js-toggles {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+}
+
+.js-toggles div {
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+    background: green;
+    cursor: move;
+}
+
+.bulbbox {
+    background: #000;
+    border: 3px solid rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bulbbox:before {
+    content: ' ';
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+
+
+.bulbbox img {
+    position: absolute;
+    max-width: 80%;
+    max-height: 80%;
+    left: 10%;
+    height: auto;
+    width: auto;
+    opacity: 0;
+}

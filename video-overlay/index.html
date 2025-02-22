@@ -1,0 +1,66 @@
+
+<html>
+  <body>
+    <style>
+      video {
+        width: auto;
+        border: 1px solid black;
+      }
+      .test {
+        height: 400px;
+        position: absolute;
+        top: 2rem;
+        left: 50%;
+        transform: translate3d(-50%,0,0);
+      }
+      .video-1 {
+        z-index: 1;
+      }
+      .video-2 {
+        z-index: 2;
+        mix-blend-mode: multiply;
+      }
+      .video-3 {
+        z-index: 3;
+        mix-blend-mode: multiply;
+      }
+      .sources {
+        display: flex;
+        margin-top: 400px;
+        padding-top: 4rem;
+        justify-content: center;
+      }
+      .sources video {
+        height: 110px;
+        margin: 0 1rem;
+      }
+    </style>
+
+    <video class="test video-1" muted autoplay loop>
+    <source src="video0.mp4" type="video/mp4">
+    </video>
+
+    <video class="test video-2" muted autoplay loop>
+    <source src="video1.mp4" type="video/mp4">
+    </video>
+
+    <video class="test video-3" muted autoplay loop>
+    <source src="video2.mp4" type="video/mp4">
+    </video>
+
+    <div class="sources">
+      <video muted autoplay loop>
+      <source src="video0.mp4" type="video/mp4">
+      </video>
+
+      <video muted autoplay loop>
+      <source src="video1.mp4" type="video/mp4">
+      </video>
+
+      <video muted autoplay loop>
+      <source src="video2.mp4" type="video/mp4">
+      </video>
+    </div>
+
+  </body>
+</html>

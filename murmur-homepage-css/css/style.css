@@ -1,0 +1,148 @@
+.js-toggle {
+    padding: 1rem;
+    margin: 1rem;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    color: white;
+    background: green;
+    cursor: move;
+}
+
+.lightbox {
+    background: #000;
+    border: 3px solid rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.lightbox:before {
+    content: ' ';
+    opacity: 0;
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+.lightbox img {
+    position: absolute;
+    max-width: 80%;
+    max-height: 80%;
+    left: 10%;
+    height: auto;
+    width: auto;
+}
+
+.lightbox:before,
+.lightbox img {
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.lightbox.power:before,
+.lightbox.power img {
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+    animation-iteration-count: 1;
+}
+
+.lightbox:before { animation-name: bg-glow-pulse; }
+.lightbox.power:before { animation-name: bg-glow; }
+
+.bulb-off { opacity: 1; }
+.power .bulb-off { animation-name: bulb-off; }
+
+.bulb-glow { opacity: 0; animation-name: bulb-glow-pulse; }
+.power .bulb-glow { animation-name: bulb-glow; }
+
+.bulb-on { opacity: 0; }
+.power .bulb-on { animation-name: bulb-on; }
+
+@keyframes bulb-off {
+    0%   { opacity: 1; }
+    70%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes bulb-glow-pulse {
+    0%   { opacity: 0; }
+    30%  { opacity: 0.15; }
+    31%  { opacity: 0; }
+
+    34%  { opacity: 0; }
+    35%  { opacity: 0.125; }
+    39%  { opacity: 0.025; }
+
+    41%  { opacity: 0.025; }
+    42%  { opacity: 0.25; }
+    43%  { opacity: 0.125; }
+
+    44%  { opacity: 0.125; }
+    45%  { opacity: 0.175; }
+
+    60%  { opacity: 0.125; }
+    80%  { opacity: 0.175; }
+    100% { opacity: 0; }
+}
+
+@keyframes bulb-glow {
+    0%   { opacity: 0; }
+    30%  { opacity: 0.25; }
+    31%  { opacity: 0; }
+
+    34%  { opacity: 0; }
+    35%  { opacity: 0.5; }
+    39%  { opacity: 0.025; }
+
+    41%  { opacity: 0.025; }
+    42%  { opacity: 0.5; }
+    43%  { opacity: 0.125; }
+
+    44%  { opacity: 0.125; }
+    45%  { opacity: 0.75; }
+
+    60%  { opacity: 0.25; }
+    80%  { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+@keyframes bg-glow {
+    0%   { opacity: 0; }
+    30%  { opacity: 0.025; }
+    31%  { opacity: 0; }
+
+    34%  { opacity: 0; }
+    35%  { opacity: 0.05; }
+    39%  { opacity: 0; }
+
+    41%  { opacity: 0; }
+    42%  { opacity: 0.05; }
+    43%  { opacity: 0; }
+
+    44%  { opacity: 0; }
+    45%  { opacity: 0.075; }
+    54%  { opacity: 0.0025; }
+
+    75%  { opacity: 0.025; }
+    100% { opacity: 0; }
+}
+
+@keyframes bulb-on {
+    0%   { opacity: 0; }
+    70%  { opacity: 0; }
+    100% { opacity: 0; }
+}

@@ -1,0 +1,715 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/Chapman360_00137.jpg" />
+    <userInterface showZoomButtons="false" showToolTips="true" showHotspotsButton="false" showFullScreenButton="true" showTogglePlayButton="false" showArrows="false" toolbarAlign="left" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="0.4" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#000000" />
+    <control mouseWheelDrag="true" mouseWheelDragZoomOnly="true" dragSpeed="0.13" doubleClickZooms="false" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="true" />
+    <rotation firstImage="137" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="1000" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" />
+  </settings>
+  <hotspots>
+    <hotspot id="spot4" renderMode="0" effects="scaleUp" indicatorImage="geo-short-red.svg" margin="30,0,0,0" align="bottom,center">
+      <spotinfo txt="Meets the requirements of ASTM D3273 for resistance to growth of mold " css="font-size:12px;color:#FFFFFF;text-align:center;line-height:19px;width:180px;padding:14px 10px 18px 10px;border-radius:5px;background-color:rgba(34,34,34,0.94);" />
+    </hotspot>
+    <hotspot id="spot3" renderMode="0" effects="scaleUp" indicatorImage="geo-short-red.svg" margin="30,0,0,0" align="bottom,center">
+      <spotinfo txt="Low ECO coating to help retain winter heat " css="font-size:12px;color:#FAFAFA;text-align:center;line-height:19px;width:180px;padding:14px 10px 18px 10px;border-radius:5px;background-color:rgba(34,34,34,0.94);" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1536" highresHeight="864">
+    <image src="images/Chapman360_00000.jpg">
+      <highres src="images/highres/Chapman360_00000.jpg" />
+    </image>
+    <image src="images/Chapman360_00001.jpg">
+      <highres src="images/highres/Chapman360_00001.jpg" />
+    </image>
+    <image src="images/Chapman360_00002.jpg">
+      <highres src="images/highres/Chapman360_00002.jpg" />
+    </image>
+    <image src="images/Chapman360_00003.jpg">
+      <highres src="images/highres/Chapman360_00003.jpg" />
+    </image>
+    <image src="images/Chapman360_00004.jpg">
+      <highres src="images/highres/Chapman360_00004.jpg" />
+    </image>
+    <image src="images/Chapman360_00005.jpg">
+      <highres src="images/highres/Chapman360_00005.jpg" />
+    </image>
+    <image src="images/Chapman360_00006.jpg">
+      <highres src="images/highres/Chapman360_00006.jpg" />
+    </image>
+    <image src="images/Chapman360_00007.jpg">
+      <highres src="images/highres/Chapman360_00007.jpg" />
+    </image>
+    <image src="images/Chapman360_00008.jpg">
+      <highres src="images/highres/Chapman360_00008.jpg" />
+    </image>
+    <image src="images/Chapman360_00009.jpg">
+      <highres src="images/highres/Chapman360_00009.jpg" />
+    </image>
+    <image src="images/Chapman360_00010.jpg">
+      <highres src="images/highres/Chapman360_00010.jpg" />
+    </image>
+    <image src="images/Chapman360_00011.jpg">
+      <highres src="images/highres/Chapman360_00011.jpg" />
+    </image>
+    <image src="images/Chapman360_00012.jpg">
+      <highres src="images/highres/Chapman360_00012.jpg" />
+    </image>
+    <image src="images/Chapman360_00013.jpg">
+      <highres src="images/highres/Chapman360_00013.jpg" />
+    </image>
+    <image src="images/Chapman360_00014.jpg">
+      <highres src="images/highres/Chapman360_00014.jpg" />
+    </image>
+    <image src="images/Chapman360_00015.jpg">
+      <highres src="images/highres/Chapman360_00015.jpg" />
+    </image>
+    <image src="images/Chapman360_00016.jpg">
+      <highres src="images/highres/Chapman360_00016.jpg" />
+    </image>
+    <image src="images/Chapman360_00017.jpg">
+      <highres src="images/highres/Chapman360_00017.jpg" />
+    </image>
+    <image src="images/Chapman360_00018.jpg">
+      <highres src="images/highres/Chapman360_00018.jpg" />
+    </image>
+    <image src="images/Chapman360_00019.jpg">
+      <highres src="images/highres/Chapman360_00019.jpg" />
+    </image>
+    <image src="images/Chapman360_00020.jpg">
+      <highres src="images/highres/Chapman360_00020.jpg" />
+    </image>
+    <image src="images/Chapman360_00021.jpg">
+      <highres src="images/highres/Chapman360_00021.jpg" />
+    </image>
+    <image src="images/Chapman360_00022.jpg">
+      <highres src="images/highres/Chapman360_00022.jpg" />
+    </image>
+    <image src="images/Chapman360_00023.jpg">
+      <highres src="images/highres/Chapman360_00023.jpg" />
+    </image>
+    <image src="images/Chapman360_00024.jpg">
+      <highres src="images/highres/Chapman360_00024.jpg" />
+    </image>
+    <image src="images/Chapman360_00025.jpg">
+      <highres src="images/highres/Chapman360_00025.jpg" />
+    </image>
+    <image src="images/Chapman360_00026.jpg">
+      <highres src="images/highres/Chapman360_00026.jpg" />
+    </image>
+    <image src="images/Chapman360_00027.jpg">
+      <highres src="images/highres/Chapman360_00027.jpg" />
+    </image>
+    <image src="images/Chapman360_00028.jpg">
+      <highres src="images/highres/Chapman360_00028.jpg" />
+    </image>
+    <image src="images/Chapman360_00029.jpg">
+      <highres src="images/highres/Chapman360_00029.jpg" />
+    </image>
+    <image src="images/Chapman360_00030.jpg">
+      <highres src="images/highres/Chapman360_00030.jpg" />
+    </image>
+    <image src="images/Chapman360_00031.jpg">
+      <highres src="images/highres/Chapman360_00031.jpg" />
+    </image>
+    <image src="images/Chapman360_00032.jpg">
+      <highres src="images/highres/Chapman360_00032.jpg" />
+    </image>
+    <image src="images/Chapman360_00033.jpg">
+      <highres src="images/highres/Chapman360_00033.jpg" />
+    </image>
+    <image src="images/Chapman360_00034.jpg">
+      <highres src="images/highres/Chapman360_00034.jpg" />
+    </image>
+    <image src="images/Chapman360_00035.jpg">
+      <highres src="images/highres/Chapman360_00035.jpg" />
+    </image>
+    <image src="images/Chapman360_00036.jpg">
+      <highres src="images/highres/Chapman360_00036.jpg" />
+    </image>
+    <image src="images/Chapman360_00037.jpg">
+      <highres src="images/highres/Chapman360_00037.jpg" />
+    </image>
+    <image src="images/Chapman360_00038.jpg">
+      <highres src="images/highres/Chapman360_00038.jpg" />
+    </image>
+    <image src="images/Chapman360_00039.jpg">
+      <highres src="images/highres/Chapman360_00039.jpg" />
+    </image>
+    <image src="images/Chapman360_00040.jpg">
+      <highres src="images/highres/Chapman360_00040.jpg" />
+    </image>
+    <image src="images/Chapman360_00041.jpg">
+      <highres src="images/highres/Chapman360_00041.jpg" />
+    </image>
+    <image src="images/Chapman360_00042.jpg">
+      <highres src="images/highres/Chapman360_00042.jpg" />
+    </image>
+    <image src="images/Chapman360_00043.jpg">
+      <highres src="images/highres/Chapman360_00043.jpg" />
+    </image>
+    <image src="images/Chapman360_00044.jpg">
+      <highres src="images/highres/Chapman360_00044.jpg" />
+    </image>
+    <image src="images/Chapman360_00045.jpg">
+      <highres src="images/highres/Chapman360_00045.jpg" />
+    </image>
+    <image src="images/Chapman360_00046.jpg">
+      <highres src="images/highres/Chapman360_00046.jpg" />
+    </image>
+    <image src="images/Chapman360_00047.jpg">
+      <highres src="images/highres/Chapman360_00047.jpg" />
+    </image>
+    <image src="images/Chapman360_00048.jpg">
+      <highres src="images/highres/Chapman360_00048.jpg" />
+    </image>
+    <image src="images/Chapman360_00049.jpg">
+      <highres src="images/highres/Chapman360_00049.jpg" />
+    </image>
+    <image src="images/Chapman360_00050.jpg">
+      <highres src="images/highres/Chapman360_00050.jpg" />
+    </image>
+    <image src="images/Chapman360_00051.jpg">
+      <highres src="images/highres/Chapman360_00051.jpg" />
+    </image>
+    <image src="images/Chapman360_00052.jpg">
+      <highres src="images/highres/Chapman360_00052.jpg" />
+    </image>
+    <image src="images/Chapman360_00053.jpg">
+      <highres src="images/highres/Chapman360_00053.jpg" />
+    </image>
+    <image src="images/Chapman360_00054.jpg">
+      <highres src="images/highres/Chapman360_00054.jpg" />
+    </image>
+    <image src="images/Chapman360_00055.jpg">
+      <highres src="images/highres/Chapman360_00055.jpg" />
+    </image>
+    <image src="images/Chapman360_00056.jpg">
+      <highres src="images/highres/Chapman360_00056.jpg" />
+    </image>
+    <image src="images/Chapman360_00057.jpg">
+      <highres src="images/highres/Chapman360_00057.jpg" />
+    </image>
+    <image src="images/Chapman360_00058.jpg">
+      <highres src="images/highres/Chapman360_00058.jpg" />
+    </image>
+    <image src="images/Chapman360_00059.jpg">
+      <highres src="images/highres/Chapman360_00059.jpg" />
+    </image>
+    <image src="images/Chapman360_00060.jpg">
+      <highres src="images/highres/Chapman360_00060.jpg" />
+    </image>
+    <image src="images/Chapman360_00061.jpg">
+      <highres src="images/highres/Chapman360_00061.jpg" />
+    </image>
+    <image src="images/Chapman360_00062.jpg">
+      <highres src="images/highres/Chapman360_00062.jpg" />
+    </image>
+    <image src="images/Chapman360_00063.jpg">
+      <highres src="images/highres/Chapman360_00063.jpg" />
+    </image>
+    <image src="images/Chapman360_00064.jpg">
+      <highres src="images/highres/Chapman360_00064.jpg" />
+    </image>
+    <image src="images/Chapman360_00065.jpg">
+      <highres src="images/highres/Chapman360_00065.jpg" />
+    </image>
+    <image src="images/Chapman360_00066.jpg">
+      <highres src="images/highres/Chapman360_00066.jpg" />
+    </image>
+    <image src="images/Chapman360_00067.jpg">
+      <highres src="images/highres/Chapman360_00067.jpg" />
+    </image>
+    <image src="images/Chapman360_00068.jpg">
+      <highres src="images/highres/Chapman360_00068.jpg" />
+    </image>
+    <image src="images/Chapman360_00069.jpg">
+      <highres src="images/highres/Chapman360_00069.jpg" />
+    </image>
+    <image src="images/Chapman360_00070.jpg">
+      <highres src="images/highres/Chapman360_00070.jpg" />
+    </image>
+    <image src="images/Chapman360_00071.jpg">
+      <highres src="images/highres/Chapman360_00071.jpg" />
+    </image>
+    <image src="images/Chapman360_00072.jpg">
+      <highres src="images/highres/Chapman360_00072.jpg" />
+    </image>
+    <image src="images/Chapman360_00073.jpg">
+      <highres src="images/highres/Chapman360_00073.jpg" />
+    </image>
+    <image src="images/Chapman360_00074.jpg">
+      <highres src="images/highres/Chapman360_00074.jpg" />
+    </image>
+    <image src="images/Chapman360_00075.jpg">
+      <highres src="images/highres/Chapman360_00075.jpg" />
+    </image>
+    <image src="images/Chapman360_00076.jpg">
+      <highres src="images/highres/Chapman360_00076.jpg" />
+    </image>
+    <image src="images/Chapman360_00077.jpg">
+      <highres src="images/highres/Chapman360_00077.jpg" />
+    </image>
+    <image src="images/Chapman360_00078.jpg">
+      <highres src="images/highres/Chapman360_00078.jpg" />
+    </image>
+    <image src="images/Chapman360_00079.jpg">
+      <highres src="images/highres/Chapman360_00079.jpg" />
+    </image>
+    <image src="images/Chapman360_00080.jpg">
+      <highres src="images/highres/Chapman360_00080.jpg" />
+    </image>
+    <image src="images/Chapman360_00081.jpg">
+      <highres src="images/highres/Chapman360_00081.jpg" />
+    </image>
+    <image src="images/Chapman360_00082.jpg">
+      <highres src="images/highres/Chapman360_00082.jpg" />
+    </image>
+    <image src="images/Chapman360_00083.jpg">
+      <highres src="images/highres/Chapman360_00083.jpg" />
+    </image>
+    <image src="images/Chapman360_00084.jpg">
+      <highres src="images/highres/Chapman360_00084.jpg" />
+    </image>
+    <image src="images/Chapman360_00085.jpg">
+      <highres src="images/highres/Chapman360_00085.jpg" />
+    </image>
+    <image src="images/Chapman360_00086.jpg">
+      <highres src="images/highres/Chapman360_00086.jpg" />
+    </image>
+    <image src="images/Chapman360_00087.jpg">
+      <highres src="images/highres/Chapman360_00087.jpg" />
+    </image>
+    <image src="images/Chapman360_00088.jpg">
+      <highres src="images/highres/Chapman360_00088.jpg" />
+    </image>
+    <image src="images/Chapman360_00089.jpg">
+      <highres src="images/highres/Chapman360_00089.jpg" />
+    </image>
+    <image src="images/Chapman360_00090.jpg">
+      <highres src="images/highres/Chapman360_00090.jpg" />
+    </image>
+    <image src="images/Chapman360_00091.jpg">
+      <highres src="images/highres/Chapman360_00091.jpg" />
+    </image>
+    <image src="images/Chapman360_00092.jpg">
+      <highres src="images/highres/Chapman360_00092.jpg" />
+    </image>
+    <image src="images/Chapman360_00093.jpg">
+      <highres src="images/highres/Chapman360_00093.jpg" />
+    </image>
+    <image src="images/Chapman360_00094.jpg">
+      <highres src="images/highres/Chapman360_00094.jpg" />
+    </image>
+    <image src="images/Chapman360_00095.jpg">
+      <highres src="images/highres/Chapman360_00095.jpg" />
+    </image>
+    <image src="images/Chapman360_00096.jpg">
+      <highres src="images/highres/Chapman360_00096.jpg" />
+    </image>
+    <image src="images/Chapman360_00097.jpg">
+      <highres src="images/highres/Chapman360_00097.jpg" />
+    </image>
+    <image src="images/Chapman360_00098.jpg">
+      <highres src="images/highres/Chapman360_00098.jpg" />
+    </image>
+    <image src="images/Chapman360_00099.jpg">
+      <highres src="images/highres/Chapman360_00099.jpg" />
+    </image>
+    <image src="images/Chapman360_00100.jpg">
+      <highres src="images/highres/Chapman360_00100.jpg" />
+    </image>
+    <image src="images/Chapman360_00101.jpg">
+      <highres src="images/highres/Chapman360_00101.jpg" />
+    </image>
+    <image src="images/Chapman360_00102.jpg">
+      <highres src="images/highres/Chapman360_00102.jpg" />
+    </image>
+    <image src="images/Chapman360_00103.jpg">
+      <highres src="images/highres/Chapman360_00103.jpg" />
+    </image>
+    <image src="images/Chapman360_00104.jpg">
+      <highres src="images/highres/Chapman360_00104.jpg" />
+    </image>
+    <image src="images/Chapman360_00105.jpg">
+      <highres src="images/highres/Chapman360_00105.jpg" />
+    </image>
+    <image src="images/Chapman360_00106.jpg">
+      <highres src="images/highres/Chapman360_00106.jpg" />
+    </image>
+    <image src="images/Chapman360_00107.jpg">
+      <hotspot source="spot3" offsetX="311" offsetY="306" />
+      <highres src="images/highres/Chapman360_00107.jpg" />
+    </image>
+    <image src="images/Chapman360_00108.jpg">
+      <hotspot source="spot3" offsetX="326" offsetY="306" />
+      <highres src="images/highres/Chapman360_00108.jpg" />
+    </image>
+    <image src="images/Chapman360_00109.jpg">
+      <hotspot source="spot3" offsetX="340" offsetY="306" />
+      <highres src="images/highres/Chapman360_00109.jpg" />
+    </image>
+    <image src="images/Chapman360_00110.jpg">
+      <hotspot source="spot3" offsetX="354" offsetY="306" />
+      <highres src="images/highres/Chapman360_00110.jpg" />
+    </image>
+    <image src="images/Chapman360_00111.jpg">
+      <hotspot source="spot3" offsetX="367" offsetY="306" />
+      <highres src="images/highres/Chapman360_00111.jpg" />
+    </image>
+    <image src="images/Chapman360_00112.jpg">
+      <hotspot source="spot3" offsetX="383" offsetY="306" />
+      <highres src="images/highres/Chapman360_00112.jpg" />
+    </image>
+    <image src="images/Chapman360_00113.jpg">
+      <hotspot source="spot3" offsetX="397" offsetY="305" />
+      <highres src="images/highres/Chapman360_00113.jpg" />
+    </image>
+    <image src="images/Chapman360_00114.jpg">
+      <hotspot source="spot3" offsetX="413" offsetY="306" />
+      <highres src="images/highres/Chapman360_00114.jpg" />
+    </image>
+    <image src="images/Chapman360_00115.jpg">
+      <hotspot source="spot3" offsetX="428" offsetY="306" />
+      <highres src="images/highres/Chapman360_00115.jpg" />
+    </image>
+    <image src="images/Chapman360_00116.jpg">
+      <hotspot source="spot3" offsetX="445" offsetY="305" />
+      <highres src="images/highres/Chapman360_00116.jpg" />
+    </image>
+    <image src="images/Chapman360_00117.jpg">
+      <hotspot source="spot3" offsetX="462" offsetY="305" />
+      <highres src="images/highres/Chapman360_00117.jpg" />
+    </image>
+    <image src="images/Chapman360_00118.jpg">
+      <hotspot source="spot3" offsetX="477" offsetY="305" />
+      <highres src="images/highres/Chapman360_00118.jpg" />
+    </image>
+    <image src="images/Chapman360_00119.jpg">
+      <hotspot source="spot4" offsetX="191" offsetY="246" />
+      <hotspot source="spot3" offsetX="493" offsetY="305" />
+      <highres src="images/highres/Chapman360_00119.jpg" />
+    </image>
+    <image src="images/Chapman360_00120.jpg">
+      <hotspot source="spot4" offsetX="193" offsetY="245" />
+      <hotspot source="spot3" offsetX="509" offsetY="305" />
+      <highres src="images/highres/Chapman360_00120.jpg" />
+    </image>
+    <image src="images/Chapman360_00121.jpg">
+      <hotspot source="spot4" offsetX="195" offsetY="245" />
+      <hotspot source="spot3" offsetX="528" offsetY="305" />
+      <highres src="images/highres/Chapman360_00121.jpg" />
+    </image>
+    <image src="images/Chapman360_00122.jpg">
+      <hotspot source="spot4" offsetX="198" offsetY="244" />
+      <hotspot source="spot3" offsetX="543" offsetY="305" />
+      <highres src="images/highres/Chapman360_00122.jpg" />
+    </image>
+    <image src="images/Chapman360_00123.jpg">
+      <hotspot source="spot4" offsetX="200" offsetY="243" />
+      <hotspot source="spot3" offsetX="558" offsetY="305" />
+      <highres src="images/highres/Chapman360_00123.jpg" />
+    </image>
+    <image src="images/Chapman360_00124.jpg">
+      <hotspot source="spot4" offsetX="204" offsetY="242" />
+      <hotspot source="spot3" offsetX="575" offsetY="305" />
+      <highres src="images/highres/Chapman360_00124.jpg" />
+    </image>
+    <image src="images/Chapman360_00125.jpg">
+      <hotspot source="spot4" offsetX="209" offsetY="242" />
+      <hotspot source="spot3" offsetX="590" offsetY="305" />
+      <highres src="images/highres/Chapman360_00125.jpg" />
+    </image>
+    <image src="images/Chapman360_00126.jpg">
+      <hotspot source="spot4" offsetX="213" offsetY="242" />
+      <hotspot source="spot3" offsetX="607" offsetY="305" />
+      <highres src="images/highres/Chapman360_00126.jpg" />
+    </image>
+    <image src="images/Chapman360_00127.jpg">
+      <hotspot source="spot4" offsetX="217" offsetY="241" />
+      <hotspot source="spot3" offsetX="622" offsetY="305" />
+      <highres src="images/highres/Chapman360_00127.jpg" />
+    </image>
+    <image src="images/Chapman360_00128.jpg">
+      <hotspot source="spot4" offsetX="222" offsetY="240" />
+      <hotspot source="spot3" offsetX="637" offsetY="305" />
+      <highres src="images/highres/Chapman360_00128.jpg" />
+    </image>
+    <image src="images/Chapman360_00129.jpg">
+      <hotspot source="spot4" offsetX="227" offsetY="240" />
+      <hotspot source="spot3" offsetX="652" offsetY="306" />
+      <highres src="images/highres/Chapman360_00129.jpg" />
+    </image>
+    <image src="images/Chapman360_00130.jpg">
+      <hotspot source="spot4" offsetX="233" offsetY="239" />
+      <hotspot source="spot3" offsetX="665" offsetY="306" />
+      <highres src="images/highres/Chapman360_00130.jpg" />
+    </image>
+    <image src="images/Chapman360_00131.jpg">
+      <hotspot source="spot4" offsetX="239" offsetY="238" />
+      <hotspot source="spot3" offsetX="679" offsetY="306" />
+      <highres src="images/highres/Chapman360_00131.jpg" />
+    </image>
+    <image src="images/Chapman360_00132.jpg">
+      <hotspot source="spot4" offsetX="247" offsetY="238" />
+      <hotspot source="spot3" offsetX="693" offsetY="307" />
+      <highres src="images/highres/Chapman360_00132.jpg" />
+    </image>
+    <image src="images/Chapman360_00133.jpg">
+      <hotspot source="spot4" offsetX="253" offsetY="238" />
+      <hotspot source="spot3" offsetX="705" offsetY="307" />
+      <highres src="images/highres/Chapman360_00133.jpg" />
+    </image>
+    <image src="images/Chapman360_00134.jpg">
+      <hotspot source="spot4" offsetX="260" offsetY="237" />
+      <hotspot source="spot3" offsetX="716" offsetY="307" />
+      <highres src="images/highres/Chapman360_00134.jpg" />
+    </image>
+    <image src="images/Chapman360_00135.jpg">
+      <hotspot source="spot4" offsetX="268" offsetY="237" />
+      <hotspot source="spot3" offsetX="727" offsetY="307" />
+      <highres src="images/highres/Chapman360_00135.jpg" />
+    </image>
+    <image src="images/Chapman360_00136.jpg">
+      <hotspot source="spot4" offsetX="276" offsetY="236" />
+      <hotspot source="spot3" offsetX="740" offsetY="307" />
+      <highres src="images/highres/Chapman360_00136.jpg" />
+    </image>
+    <image src="images/Chapman360_00137.jpg">
+      <hotspot source="spot4" offsetX="285" offsetY="235" />
+      <hotspot source="spot3" offsetX="748" offsetY="308" />
+      <highres src="images/highres/Chapman360_00137.jpg" />
+    </image>
+    <image src="images/Chapman360_00138.jpg">
+      <hotspot source="spot4" offsetX="293" offsetY="235" />
+      <hotspot source="spot3" offsetX="758" offsetY="308" />
+      <highres src="images/highres/Chapman360_00138.jpg" />
+    </image>
+    <image src="images/Chapman360_00139.jpg">
+      <hotspot source="spot4" offsetX="302" offsetY="235" />
+      <hotspot source="spot3" offsetX="767" offsetY="308" />
+      <highres src="images/highres/Chapman360_00139.jpg" />
+    </image>
+    <image src="images/Chapman360_00140.jpg">
+      <hotspot source="spot4" offsetX="312" offsetY="234" />
+      <hotspot source="spot3" offsetX="776" offsetY="308" />
+      <highres src="images/highres/Chapman360_00140.jpg" />
+    </image>
+    <image src="images/Chapman360_00141.jpg">
+      <hotspot source="spot4" offsetX="320" offsetY="234" />
+      <hotspot source="spot3" offsetX="784" offsetY="308" />
+      <highres src="images/highres/Chapman360_00141.jpg" />
+    </image>
+    <image src="images/Chapman360_00142.jpg">
+      <hotspot source="spot4" offsetX="330" offsetY="234" />
+      <hotspot source="spot3" offsetX="791" offsetY="308" />
+      <highres src="images/highres/Chapman360_00142.jpg" />
+    </image>
+    <image src="images/Chapman360_00143.jpg">
+      <hotspot source="spot4" offsetX="340" offsetY="234" />
+      <hotspot source="spot3" offsetX="797" offsetY="308" />
+      <highres src="images/highres/Chapman360_00143.jpg" />
+    </image>
+    <image src="images/Chapman360_00144.jpg">
+      <hotspot source="spot4" offsetX="349" offsetY="233" />
+      <hotspot source="spot3" offsetX="803" offsetY="308" />
+      <highres src="images/highres/Chapman360_00144.jpg" />
+    </image>
+    <image src="images/Chapman360_00145.jpg">
+      <hotspot source="spot4" offsetX="359" offsetY="233" />
+      <hotspot source="spot3" offsetX="807" offsetY="308" />
+      <highres src="images/highres/Chapman360_00145.jpg" />
+    </image>
+    <image src="images/Chapman360_00146.jpg">
+      <hotspot source="spot4" offsetX="369" offsetY="233" />
+      <hotspot source="spot3" offsetX="812" offsetY="308" />
+      <highres src="images/highres/Chapman360_00146.jpg" />
+    </image>
+    <image src="images/Chapman360_00147.jpg">
+      <hotspot source="spot4" offsetX="379" offsetY="233" />
+      <hotspot source="spot3" offsetX="816" offsetY="309" />
+      <highres src="images/highres/Chapman360_00147.jpg" />
+    </image>
+    <image src="images/Chapman360_00148.jpg">
+      <hotspot source="spot4" offsetX="389" offsetY="233" />
+      <hotspot source="spot3" offsetX="819" offsetY="309" />
+      <highres src="images/highres/Chapman360_00148.jpg" />
+    </image>
+    <image src="images/Chapman360_00149.jpg">
+      <hotspot source="spot4" offsetX="399" offsetY="233" />
+      <hotspot source="spot3" offsetX="821" offsetY="309" />
+      <highres src="images/highres/Chapman360_00149.jpg" />
+    </image>
+    <image src="images/Chapman360_00150.jpg">
+      <hotspot source="spot4" offsetX="409" offsetY="233" />
+      <hotspot source="spot3" offsetX="823" offsetY="309" />
+      <highres src="images/highres/Chapman360_00150.jpg" />
+    </image>
+    <image src="images/Chapman360_00151.jpg">
+      <hotspot source="spot4" offsetX="420" offsetY="233" />
+      <highres src="images/highres/Chapman360_00151.jpg" />
+    </image>
+    <image src="images/Chapman360_00152.jpg">
+      <hotspot source="spot4" offsetX="430" offsetY="233" />
+      <highres src="images/highres/Chapman360_00152.jpg" />
+    </image>
+    <image src="images/Chapman360_00153.jpg">
+      <hotspot source="spot4" offsetX="439" offsetY="233" />
+      <highres src="images/highres/Chapman360_00153.jpg" />
+    </image>
+    <image src="images/Chapman360_00154.jpg">
+      <hotspot source="spot4" offsetX="448" offsetY="234" />
+      <highres src="images/highres/Chapman360_00154.jpg" />
+    </image>
+    <image src="images/Chapman360_00155.jpg">
+      <hotspot source="spot4" offsetX="459" offsetY="234" />
+      <highres src="images/highres/Chapman360_00155.jpg" />
+    </image>
+    <image src="images/Chapman360_00156.jpg">
+      <hotspot source="spot4" offsetX="466" offsetY="234" />
+      <highres src="images/highres/Chapman360_00156.jpg" />
+    </image>
+    <image src="images/Chapman360_00157.jpg">
+      <hotspot source="spot4" offsetX="476" offsetY="234" />
+      <highres src="images/highres/Chapman360_00157.jpg" />
+    </image>
+    <image src="images/Chapman360_00158.jpg">
+      <hotspot source="spot4" offsetX="485" offsetY="234" />
+      <highres src="images/highres/Chapman360_00158.jpg" />
+    </image>
+    <image src="images/Chapman360_00159.jpg">
+      <hotspot source="spot4" offsetX="494" offsetY="234" />
+      <highres src="images/highres/Chapman360_00159.jpg" />
+    </image>
+    <image src="images/Chapman360_00160.jpg">
+      <hotspot source="spot4" offsetX="503" offsetY="235" />
+      <highres src="images/highres/Chapman360_00160.jpg" />
+    </image>
+    <image src="images/Chapman360_00161.jpg">
+      <hotspot source="spot4" offsetX="511" offsetY="235" />
+      <highres src="images/highres/Chapman360_00161.jpg" />
+    </image>
+    <image src="images/Chapman360_00162.jpg">
+      <hotspot source="spot4" offsetX="519" offsetY="235" />
+      <highres src="images/highres/Chapman360_00162.jpg" />
+    </image>
+    <image src="images/Chapman360_00163.jpg">
+      <hotspot source="spot4" offsetX="527" offsetY="235" />
+      <highres src="images/highres/Chapman360_00163.jpg" />
+    </image>
+    <image src="images/Chapman360_00164.jpg">
+      <hotspot source="spot4" offsetX="535" offsetY="236" />
+      <highres src="images/highres/Chapman360_00164.jpg" />
+    </image>
+    <image src="images/Chapman360_00165.jpg">
+      <hotspot source="spot4" offsetX="541" offsetY="236" />
+      <highres src="images/highres/Chapman360_00165.jpg" />
+    </image>
+    <image src="images/Chapman360_00166.jpg">
+      <hotspot source="spot4" offsetX="548" offsetY="237" />
+      <highres src="images/highres/Chapman360_00166.jpg" />
+    </image>
+    <image src="images/Chapman360_00167.jpg">
+      <hotspot source="spot4" offsetX="555" offsetY="237" />
+      <highres src="images/highres/Chapman360_00167.jpg" />
+    </image>
+    <image src="images/Chapman360_00168.jpg">
+      <hotspot source="spot4" offsetX="561" offsetY="237" />
+      <highres src="images/highres/Chapman360_00168.jpg" />
+    </image>
+    <image src="images/Chapman360_00169.jpg">
+      <hotspot source="spot4" offsetX="567" offsetY="238" />
+      <highres src="images/highres/Chapman360_00169.jpg" />
+    </image>
+    <image src="images/Chapman360_00170.jpg">
+      <highres src="images/highres/Chapman360_00170.jpg" />
+    </image>
+    <image src="images/Chapman360_00171.jpg">
+      <highres src="images/highres/Chapman360_00171.jpg" />
+    </image>
+    <image src="images/Chapman360_00172.jpg">
+      <highres src="images/highres/Chapman360_00172.jpg" />
+    </image>
+    <image src="images/Chapman360_00173.jpg">
+      <highres src="images/highres/Chapman360_00173.jpg" />
+    </image>
+    <image src="images/Chapman360_00174.jpg">
+      <highres src="images/highres/Chapman360_00174.jpg" />
+    </image>
+    <image src="images/Chapman360_00175.jpg">
+      <highres src="images/highres/Chapman360_00175.jpg" />
+    </image>
+    <image src="images/Chapman360_00176.jpg">
+      <highres src="images/highres/Chapman360_00176.jpg" />
+    </image>
+    <image src="images/Chapman360_00177.jpg">
+      <highres src="images/highres/Chapman360_00177.jpg" />
+    </image>
+    <image src="images/Chapman360_00178.jpg">
+      <highres src="images/highres/Chapman360_00178.jpg" />
+    </image>
+    <image src="images/Chapman360_00179.jpg">
+      <highres src="images/highres/Chapman360_00179.jpg" />
+    </image>
+    <image src="images/Chapman360_00180.jpg">
+      <highres src="images/highres/Chapman360_00180.jpg" />
+    </image>
+    <image src="images/Chapman360_00181.jpg">
+      <highres src="images/highres/Chapman360_00181.jpg" />
+    </image>
+    <image src="images/Chapman360_00182.jpg">
+      <highres src="images/highres/Chapman360_00182.jpg" />
+    </image>
+    <image src="images/Chapman360_00183.jpg">
+      <highres src="images/highres/Chapman360_00183.jpg" />
+    </image>
+    <image src="images/Chapman360_00184.jpg">
+      <highres src="images/highres/Chapman360_00184.jpg" />
+    </image>
+    <image src="images/Chapman360_00185.jpg">
+      <highres src="images/highres/Chapman360_00185.jpg" />
+    </image>
+    <image src="images/Chapman360_00186.jpg">
+      <highres src="images/highres/Chapman360_00186.jpg" />
+    </image>
+    <image src="images/Chapman360_00187.jpg">
+      <highres src="images/highres/Chapman360_00187.jpg" />
+    </image>
+    <image src="images/Chapman360_00188.jpg">
+      <highres src="images/highres/Chapman360_00188.jpg" />
+    </image>
+    <image src="images/Chapman360_00189.jpg">
+      <highres src="images/highres/Chapman360_00189.jpg" />
+    </image>
+    <image src="images/Chapman360_00190.jpg">
+      <highres src="images/highres/Chapman360_00190.jpg" />
+    </image>
+    <image src="images/Chapman360_00191.jpg">
+      <highres src="images/highres/Chapman360_00191.jpg" />
+    </image>
+    <image src="images/Chapman360_00192.jpg">
+      <highres src="images/highres/Chapman360_00192.jpg" />
+    </image>
+    <image src="images/Chapman360_00193.jpg">
+      <highres src="images/highres/Chapman360_00193.jpg" />
+    </image>
+    <image src="images/Chapman360_00194.jpg">
+      <highres src="images/highres/Chapman360_00194.jpg" />
+    </image>
+    <image src="images/Chapman360_00195.jpg">
+      <highres src="images/highres/Chapman360_00195.jpg" />
+    </image>
+    <image src="images/Chapman360_00196.jpg">
+      <highres src="images/highres/Chapman360_00196.jpg" />
+    </image>
+    <image src="images/Chapman360_00197.jpg">
+      <highres src="images/highres/Chapman360_00197.jpg" />
+    </image>
+    <image src="images/Chapman360_00198.jpg">
+      <highres src="images/highres/Chapman360_00198.jpg" />
+    </image>
+    <image src="images/Chapman360_00199.jpg">
+      <highres src="images/highres/Chapman360_00199.jpg" />
+    </image>
+  </images>
+</config>
